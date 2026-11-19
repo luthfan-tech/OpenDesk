@@ -12,7 +12,12 @@
 - Installed and configured Autodesk Fusion 360:
   - Switched default design units to **millimeters (mm)**.
   - Practiced 3D canvas navigation (Pan, Orbit, Zoom).
-  - Learned basic 2D sketching, constraints (Coincident, Horizontal/Vertical), and dimensioning.
+  - Created and completed the **ESP32 Mounting Plate 2D Sketch**:
+    - Outer dimensions: `55 mm x 30 mm` anchored to the origin.
+    - 4× corner mounting holes: `3.2 mm` diameter (standard M3 clearance).
+    - Edge offsets: `3.0 mm` from edges using geometric constraints and dimensioning.
+    - Achieved a fully constrained state (all sketch entities transitioned from blue to black).
+  - Saved the design file as `OpenDesk` within the Fusion 360 cloud workspace.
 
 ---
 
