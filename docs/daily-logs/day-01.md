@@ -21,7 +21,14 @@
 
 ---
 
-## 2. System Architecture (v1)
+## 2. Design Artifacts (Fusion 360)
+
+![ESP32 Mounting Plate 2D Sketch](../day-01-sketch.png)
+*Figure 1: Fully constrained 2D sketch of the ESP32 mounting plate (55 mm x 30 mm, 3.2 mm corner holes, 3.0 mm edge offsets).*
+
+---
+
+## 3. System Architecture (v1)
 
 ```
 [ DHT11 / DHT22 Sensor ] ---> (Temperature / Humidity) ---+
@@ -37,7 +44,7 @@
 
 ---
 
-## 3. Bill of Materials (BOM)
+## 4. Bill of Materials (BOM)
 
 | Item | Component | Purpose |
 | :--- | :--- | :--- |
@@ -50,14 +57,14 @@
 
 ---
 
-## 4. Key Learnings (Fusion 360)
+## 5. Key Learnings (Fusion 360)
 - **Always anchor sketches to the Origin `(0,0,0)`** to keep sketches predictable and prevent accidental translation.
 - **Constraints over raw dimensions:** Geometric constraints (like `Horizontal`, `Vertical`, `Equal`, and `Symmetric`) reduce the number of explicit numbers you have to maintain.
 - **Blue vs. Black sketch lines:** Black lines mean the geometry is fully constrained in size and position. Blue lines mean the shape can still be distorted.
 
 ---
 
-## 5. Next Steps (Day 2)
+## 6. Next Steps (Day 2)
 - 3D Extrusion and turning 2D sketches into solid 3D bodies in Fusion 360.
 - Using Fusion 360 **User Parameters** (parametric design) so dimensions can be changed without breaking the model.
 - Setting up the ESP32 development environment (VS Code + PlatformIO or Arduino IDE).
