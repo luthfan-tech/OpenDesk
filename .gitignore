@@ -1,0 +1,34 @@
+# Operating System
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# CAD / 3D Modeling Temporary & Backup files
+*.bak
+*.tmp
+*.f3d.bak
+
+# Firmware / Arduino / PlatformIO
+.pio/
+.pioenvs/
+build/
+*.bin
+*.hex
+*.elf
+*.o
+
+# Environment variables & secrets (WiFi credentials, tokens)
+secrets.h
+*.env
+config.local.json
+
+# Web / Dependencies
+node_modules/
+dist/
+.cache/

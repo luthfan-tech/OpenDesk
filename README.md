@@ -21,12 +21,18 @@ and full-stack development through one practical project.
 - GitHub for documentation and version control
 
 ## Project status
-v1 prototype in progress
+v1 prototype in progress (Day 1 of 30)
 
-## Documentation
-- Idea and research
-- CAD design
-- Electronics
-- Software
-- Build log
-- Future improvements
+## Repository Structure
+```text
+OpenDesk/
+├── cad/             # Fusion 360 models, .step, .stl, and renders
+├── docs/            # Hardware specs, architecture diagrams, daily build logs
+│   └── daily-logs/
+├── firmware/        # Microcontroller code (ESP32 / C++)
+└── web/             # Embedded web dashboard (HTML / CSS / JS)
+```
+
+## Documentation & Logs
+- [Day 1: Project Blueprint & Fusion 360 Setup](docs/daily-logs/day-01.md)
+- *More daily logs added as the build progresses.*
