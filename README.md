@@ -31,6 +31,10 @@ Aquaculture is a **₹50,000 Crore** industry in India, providing livelihoods fo
 
 When dissolved oxygen dips below safe thresholds, the system triggers loud audible alarms and mobile dashboard alerts, giving farmers actionable time to turn on aerators before fish begin to die.
 
+<p align="center">
+  <img src="docs/buoy-exploded-reference.jpg" alt="PondSense Mechanical Architecture Exploded View" width="600" />
+</p>
+
 ---
 
 ## 🛠️ System Architecture
@@ -152,6 +156,7 @@ flowchart LR
 Every step of the design, modeling, and coding journey is documented day by day:
 - [Day 1: Project Kickoff, The 30-Day Constraint & Fusion 360 Basics](docs/daily-logs/Day-01.md)
 - [Day 2: Ideation, Case Study & The Pivot to PondSense](docs/daily-logs/Day-02.md)
+- [Day 3: Mechanical Architecture Blueprint & Conical Hull Design](docs/daily-logs/Day-03.md)
 - *Upcoming logs committed daily.*
 
 ---
